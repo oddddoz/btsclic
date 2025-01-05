@@ -1,13 +1,12 @@
 <?php
     function check_auth() {
         if (!isset($_SESSION['user_id'])) {
-            header("Location: index.php");
+            header("Location: connexion.php");
             exit;
         }
     }
 
     function connect_db() {
-        // Database configuration
         $host = 'localhost';
         $user = 'user';
         $password = 'password';
@@ -18,7 +17,7 @@
         if ($conn->connect_error) {
             die("Connection failed: " . $conn->connect_error);
         }
-
+        
         return $conn;
     }
 ?>
