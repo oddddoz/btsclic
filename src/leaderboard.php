@@ -1,7 +1,11 @@
 <?php
     include 'helper.php';
 
+    // Connect to database
     $conn = connect_db();
+
+    // Start session
+    session_start();
 ?>
 <!DOCTYPE html>
 <html lang="en">

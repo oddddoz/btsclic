@@ -1,6 +1,7 @@
 <?php
     include 'helper.php';
 
+    // Connect to database
     $conn = connect_db();
 
     // Start session
