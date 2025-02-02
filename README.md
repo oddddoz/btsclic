@@ -1,6 +1,6 @@
 # BTS CLICK STARTER
 
-Ce repository doit être forké et utilisé avant de commencer les missions 2.x.  
+Ce repository doit être forké et utilisé avant de commencer les missions PHP.
 
 ## Prérequis
 
